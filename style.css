@@ -5,9 +5,86 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 93.7%;
 }
 
 body {
   font-family: "Poppins", sans-serif;
+}
+
+.container {
+  padding: 2rem;
+  height: 230vh;
+  margin-bottom: 5rem;
+}
+
+.main-text {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.main-text,
+.card-title {
+  color: hsl(234, 12%, 34%);
+}
+
+.main-text-first,
+.main-text-second {
+  display: block;
+}
+
+.main-text-first {
+  font-weight: 200;
+}
+
+.sub-text {
+  text-align: center;
+  margin-bottom: 4rem;
+  color: hsl(229, 6%, 66%);
+}
+
+.card {
+  width: 100%;
+  height: 40vh;
+  border: 1px solid hsl(0, 0%, 98%);
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.22);
+  margin-bottom: 1.5rem;
+  padding: 2rem;
+  position: relative;
+}
+
+#supervisor {
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+#team-builder {
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+#karma {
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+#calculator {
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.card-text {
+  color: hsl(229, 6%, 66%);
+  line-height: 1.7rem;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-icon {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+footer {
+  margin-top: 5rem;
 }
